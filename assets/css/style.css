@@ -4,20 +4,20 @@
 
 /* css to remove any default vertical white space from bootstrap classes */
 
-html,body
-{
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
 
 /*--------------------------------------------------------------------------------Navbar*/
 
 .navalert-container {
     position: fixed;
-    display:inline-flex;
+    display: inline-flex;
     top: 0;
     left: 0;
     padding-left: 0;
@@ -46,9 +46,13 @@ html,body
     font-weight: bold;
 }
 
-/*------hero image and header----*/
+.active {
+    border-bottom: 1px solid #ffe6e8;
+}
 
-.callout-container {
+/*--------------------------------------------------------------------------------hero image and header----*/
+
+.hero-container {
     height: 100vh;
     width: 100%;
     background: url("../images/heroimage.webp") no-repeat center center/cover;
@@ -56,21 +60,76 @@ html,body
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(10, 16, 13, 0.5);
+}
+
+/*--------------------------------------------------------------------------------Jumbotron*/
+
+.jumbotron {
+    background-color: rgba(10, 16, 13, 0.5);
+    border-radius: 25px;
+}
+
+.jumbotron-header {
+    color: #ffe6e8;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: "Italiana", sans-serif;
+}
+
+.block-divider--rose {
+    width: 50%;
+    height: 0.5rem;
+    border: 0;
+    border-radius: 25px;
+    background-color: #ffe6e8;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #ffe6e8;
+}
+
+/*--------------------------------------------------------------------------------destination showcase*/
+
+.container-wrapper--red {
+    background-color: #710627;
+    color: white;
+}
+
+.showcase-container {
+    text-align: center;
 
 }
+
+.showcaseimage {
+    border-radius: 25px;
+    height: auto;
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
 
 /*--------------------------------------------------------------------------------Footer*/
 
 footer {
     background-color: #710627;
-    color: #fafafa;
-    min-height:120px;
+    color: #ffe6e8;
+    min-height: 120px;
     margin: 0;
 }
 
@@ -82,7 +141,7 @@ footer {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 
-    
+
 }
 
 .social-links li a i {
@@ -90,7 +149,7 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size:13px;
+    font-size: 13px;
     line-height: 7px;
     text-align: center;
     color: #ffe6e8;
@@ -112,7 +171,7 @@ footer {
 
 
 
-/*---------media query for mobile responsiveness in navbar*/
+/*--------------------------------------------------------------------------------media query for mobile responsiveness in navbar*/
 
 @media screen and (max-width: 446px) {
 
@@ -121,3 +180,63 @@ footer {
         font-size: 1.5rem;
     }
 }
+
+/*--------------------------------------------------------------------------------media query for mobile responsiveness in navbar*/
+
+@media screen and (min-width: 1040px) {
+
+/*--------------------------------------------------------------------------------showcase overlay*/    
+
+.showcase-container-center {
+    text-align: center;
+
+}
+.slide-container {
+    position: relative;
+    width:100%;
+}
+
+.image {
+    display: block;
+    border-radius: 25px;
+    height: auto;
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(10, 16, 13, 0.5);
+    border-radius: 25px;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.slide-container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .overlay-text {
+    white-space: nowrap; 
+    color: #ffe6e8;
+    font-family: "Italiana", sans-serif;
+    font-size: 3rem;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+
+
+}
+
