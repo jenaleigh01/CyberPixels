@@ -1,0 +1,59 @@
+/*Google fonts import*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&family=Italiana:wght@200;300;400;500;600;700&display=swap');
+
+
+/* css to remove any default vertical white space from bootstrap classes */
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* Navbar*/
+
+.navalert-container {
+    position: fixed;
+    display:inline-flex;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navalert-container h1 {
+    font-family: "Italiana", sans-serif;
+    width: 30%;
+    color: #ffe6e8;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(113, 6, 39);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+
+/*---------media query for mobile responsiveness in navbar*/
+
+@media screen and (max-width: 446px) {
+
+    .navalert-container h1 {
+        font-family: "Italiana", sans-serif;
+        font-size: 1.5rem;
+    }
+}
