@@ -13,7 +13,7 @@ html,body
     overflow-x: hidden; 
 }
 
-/* Navbar*/
+/*--------------------------------------------------------------------------------Navbar*/
 
 .navalert-container {
     position: fixed;
@@ -44,6 +44,51 @@ html,body
 
 .navbar-brand {
     font-weight: bold;
+}
+
+/*--------------------------------------------------------------------------------Footer*/
+
+footer {
+    background-color: #710627;
+    color: #fafafa;
+    min-height:120px;
+    margin: 0;
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size:13px;
+    line-height: 7px;
+    text-align: center;
+    color: #ffe6e8;
+    background-color: #710627;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #7d8491;
+    color: #ffe6e8;
+}
+
+#footer-details {
+    padding: 20px;
 }
 
 
