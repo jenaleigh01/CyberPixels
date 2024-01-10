@@ -46,6 +46,10 @@ html,body
     font-weight: bold;
 }
 
+.active {
+    border-bottom: 1px solid #ffe6e8;
+}
+
 /*------hero image and header----*/
 
 .hero-container {
