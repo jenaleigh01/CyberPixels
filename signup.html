@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,7 +30,58 @@
             </div>
         </nav>
     </div>
-    
+
+    <!-- Main Content -->
+
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="#">
+                <h2>Your journey awaits!</h2>
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" class="text-input" required>
+
+                <br>
+
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" class="text-input" required>
+
+                <br>
+
+                <label for="email_address">Email Address</label>
+                <input type="email" id="email_address" name="email_address" class="text-input" required>
+
+                <br>
+
+                <div class="radio-buttons">
+                    <div>
+                        <label for="japan">Japan</label>
+                        <input type="radio" name="destination-choice" id="japan" value="japan" required checked>
+                    </div>
+
+                    <div>
+                        <label for="indonesia">Indonesia</label>
+                        <input type="radio" name="destination-choice" id="indonesia" value="indonesia" required>
+                    </div>
+
+                    <div>
+                        <label for="thailand">Thailand</label>
+                        <input type="radio" name="destination-choice" id="thailand" value="Thailand" required>
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="subscribe" name="subscribe">
+                    <label for="subscribe">Sign me up to receive deals and offers available.</label>
+                </div>
+
+                <button class="submit-button" type="submit">Submit</button>
+
+            </form>
+        </section>
+    </main>
+
+    <!-- End of Main Content -->
+
 </body>
 
 <footer>
@@ -72,4 +124,5 @@
     </div>
 
 </footer>
+
 </html>
