@@ -50,7 +50,7 @@ html,body
     border-bottom: 1px solid #ffe6e8;
 }
 
-/*------hero image and header----*/
+/*--------------------------------------------------------------------------------hero image and header----*/
 
 .hero-container {
     height: 100vh;
@@ -75,7 +75,7 @@ html,body
     background-color: rgba(10, 16, 13, 0.5);
 }
 
-/* Jumbotron*/
+/*--------------------------------------------------------------------------------Jumbotron*/
 
 .jumbotron {
     background-color: rgba(10, 16, 13, 0.5);
@@ -102,11 +102,18 @@ html,body
     color: #ffe6e8;
 }
 
+/*--------------------------------------------------------------------------------destination showcase*/
+
+.container-wrapper--red {
+    background-color: #710627;
+    color: white;
+}
+
 /*--------------------------------------------------------------------------------Footer*/
 
 footer {
     background-color: #710627;
-    color: #fafafa;
+    color: #ffe6e8;
     min-height:120px;
     margin: 0;
 }
@@ -149,7 +156,7 @@ footer {
 
 
 
-/*---------media query for mobile responsiveness in navbar*/
+/*--------------------------------------------------------------------------------media query for mobile responsiveness in navbar*/
 
 @media screen and (max-width: 446px) {
 
