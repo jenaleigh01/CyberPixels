@@ -71,6 +71,24 @@ html,body
     background-color: rgba(10, 16, 13, 0.5);
 }
 
+/* Jumbotron*/
+
+.jumbotron {
+    background-color: rgba(10, 16, 13, 0.5);
+}
+
+.jumbotron-header {
+    color: #ffe6e8;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: "Italiana", sans-serif;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #ffe6e8;
+}
+
 /*--------------------------------------------------------------------------------Footer*/
 
 footer {
