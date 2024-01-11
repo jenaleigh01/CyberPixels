@@ -123,7 +123,9 @@ body {
     margin-bottom: 2rem;
 }
 
-*--------------------------------------------------------------------------------Destinations page */ .img-fluid {
+/*--------------------------------------------------------------------------------Destinations page */ 
+
+.img-fluid {
     position: relative;
     text-align: center;
     min-width: 100%;
@@ -271,9 +273,10 @@ footer {
 
 @media screen and (max-width: 1000px) {
 
-    position: relative;
+    .img-fluid {  position: relative;
     text-align: center;
     min-width: 100%;
+    }
 
 }
 
@@ -305,7 +308,7 @@ footer {
         text-align: center;
         min-width: 100%;
     }
-}
+
 
 .overlay {
     position: absolute;
