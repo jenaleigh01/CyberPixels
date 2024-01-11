@@ -107,19 +107,16 @@ body {
 
 .container-wrapper--rose {
     background-color: #ffe6e8;
-    ;
 }
 
 .showcase-container {
     text-align: center;
-
 }
 
 /*--------------------------------------------------------------------------------showcase overlay*/
 
 .slide-container {
     position: relative;
-
 }
 
 .image {
@@ -306,6 +303,11 @@ body {
     color: #D6FFB7;
 }
 
+.text-input:hover {
+    border-color: #0A100D;
+}
+
+
 /*--------------------------------------------------------------------------------Footer*/
 
 footer {
@@ -384,14 +386,8 @@ footer {
         max-width: 400px;
     }
 
-    .text-input:hover {
-        border-color: #0A100D;
-    }
-
     .submit-button:hover {
         background-color: #D6FFB7;
         color: #0A100D;
-
-    }
 
 }
