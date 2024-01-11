@@ -23,52 +23,51 @@ This website is targetted at those who love to travel, as well as anyone who has
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+- The landing page image is a high quality photograph depicting a scene for the destinations covered.
+- It introduces the brand name and aesthetic, as well as featuring a brief statement of purpose.
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __Destination Showcase Section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - This section invites the user to delve more deeply into our content with three impactful images featuring iconic destinations within the countries covered.
+  - On desktop, hovering over the images in this section causes an interactive overlay with a link to appear, the link in the overlay directs to the relevant section of the destination page.
+
+ 
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer includes links the user can follow to access our social media content on different platforms, encouraging them to stay connecterd with our brand.
+  - The footer displays consistently across all pages and is responsive on mobile. 
+
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+- __Destinations Page__
+
+  - The destinations page will provide the user with comprehensive information about attractions in each destination, and ccompanying high quality images. 
+  - This section is valuable as it contains the information users came to our page for. We hope they will chose to enquire about our packages at these destinations, join our mailing list, or that they learn something new.
+
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __The Sign Up Page__
+- __Enquire Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+ - This page will allow users to send an equiry for more information about what is on offer in a specific country, and join our mailng list.
+- They are asked to submit their first and last names, their email adddress, select which country they would like information on, and tick a box indicating whether they would like to join the mailing list.
+
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
 
-- Another feature idea
+- A section for reciews from people who have used our website to plan their journey in these areas.
+- An affiliate section for reputable accomodation or attraction providers we are either connected to or have good relationships with.
 
 ## Testing 
 
