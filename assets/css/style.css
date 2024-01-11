@@ -78,8 +78,8 @@ body {
 /*--------------------------------------------------------------------------------Jumbotron*/
 
 .jumbotron {
-    background-color: rgba(10, 16, 13, 0.5);
-    border-radius: 25px;
+    background-color: transparent;
+
 }
 
 .jumbotron-header {
@@ -104,9 +104,8 @@ body {
 
 /*--------------------------------------------------------------------------------destination showcase*/
 
-.container-wrapper--red {
-    background-color: #710627;
-    color: white;
+.container-wrapper--rose {
+    background-color: #ffe6e8;;
 }
 
 .showcase-container {
@@ -140,8 +139,6 @@ footer {
     text-align: center;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-
-
 }
 
 .social-links li a i {
@@ -181,7 +178,7 @@ footer {
     }
 }
 
-/*--------------------------------------------------------------------------------media query for mobile responsiveness in navbar*/
+/*--------------------------------------------------------------------------------media query for showcased overlay on desktop*/
 
 @media screen and (min-width: 1040px) {
 
