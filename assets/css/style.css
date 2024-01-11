@@ -377,21 +377,21 @@ footer {
         min-width: 100%;
     }
 
-/*--------------------------------------------------------------------------------media query for signup form on desktop and larger devices */
+    /*--------------------------------------------------------------------------------media query for signup form on desktop and larger devices */
 
     #signup-form {
-        max-width: 400px; }
-
+        margin-top: 8rem;
+        max-width: 400px;
+    }
 
     .text-input:hover {
         border-color: #0A100D;
     }
 
-
     .submit-button:hover {
         background-color: #D6FFB7;
         color: #0A100D;
-        
+
     }
 
-} 
+}
