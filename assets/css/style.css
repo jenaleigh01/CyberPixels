@@ -296,6 +296,9 @@ footer {
 
     }
 
+
+    }
+
     .image {
         display: block;
         border-radius: 25px;
@@ -326,6 +329,7 @@ footer {
     height: 0;
     transition: .5s ease;
 }
+
 
 .slide-container:hover .overlay {
     bottom: 0;
