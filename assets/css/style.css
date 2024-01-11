@@ -123,7 +123,7 @@ body {
     margin-bottom: 2rem;
 }
 
-/*--------------------------------------------------------------------------------Destinations page */ 
+/*--------------------------------------------------------------------------------Destinations page */
 
 .img-fluid {
     position: relative;
@@ -169,40 +169,77 @@ body {
 }
 
 /*--------------------------------------------------------------------------------Enquiry form*/
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
 #signup {
+    margin-top: 63px;
     height: 100vh;
     width: 100%;
     background: url("../images/signup-image.jpg") no-repeat center center fixed;
     background-size: cover;
-    position: relative;
+    position: 75%;
+    flex-grow: 1;
 }
 
-.signup-heading {
+#signup-form {
+    color:#ffe6e8;
+    padding: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #FFE6E8;
+    width: 100%;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #ffe6e8;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+
+#signup > h2 {
     text-align: center;
     text-transform: uppercase;
     font-size: 15px;
     margin-top: 70px;
-
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0A100D;
 }
 
-#signup-form {
-    margin-top: 70px;
-}
-
-.radio-buttons {
-    color: #ffe6e8;
-    font-family: "Roboto", sans-serif;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-
-}
 
 .checkbox {
     color: #ffe6e8;
+    vertical-align: center;
     font-family: "Roboto", sans-serif;
+    font-weight: bold;
 }
+
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    font-size: 100%;
+    padding: 15px 32px;
+    color: #0A100D;
+    background-color: #7d8491;
+    align-items: center;
+}
+
+.submit-button:hover {
+    background-color: #7D8491;
+    color: #D6FFB7;
+}
+
 
 /*--------------------------------------------------------------------------------Footer*/
 
@@ -269,13 +306,35 @@ footer {
         top: 25%;
         font-size: 3rem;
     }
+
+    #signup > h2 {
+        color: #ffe6e8
+    }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 768px) {
 
-    .img-fluid {  position: relative;
-    text-align: center;
-    min-width: 100%;
+    .img-fluid {
+        position: relative;
+        text-align: center;
+        min-width: 100%;
+    }
+
+    #signup {
+        background-position: center;
+        position: relative;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 30%;
+        top: 150px;
+    }
+
+    #signup > h2 {
+        margin-top: 50px;
+        text-align: center;
     }
 
 }
@@ -296,21 +355,33 @@ footer {
 
     }
 
-
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 37%;
+        top: 150px;
     }
 
-    .image {
-        display: block;
-        border-radius: 25px;
-        height: auto;
-        width: 100%;
-    }
-
-    .img-fluid {
-        position: relative;
+    #signup > h2 {
+        margin-top: 50px;
         text-align: center;
-        min-width: 100%;
     }
+
+
+}
+
+.image {
+    display: block;
+    border-radius: 25px;
+    height: auto;
+    width: 100%;
+}
+
+.img-fluid {
+    position: relative;
+    text-align: center;
+    min-width: 100%;
+}
 
 
 .overlay {

@@ -23,9 +23,9 @@
 
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ml-auto">
-                    <li class="active nav-item ml-2"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item ml-2"><a class="nav-link" href="/">Home</a></li>
                     <li class="nav-item ml-2"><a class="nav-link" href="">Destinations</a></li>
-                    <li class="nav-item ml-2"><a class="nav-link" href="">Enquire</a></li>
+                    <li class="active nav-item ml-2"><a class="nav-link" href="">Enquire</a></li>
 
                 </ul>
             </div>
@@ -34,67 +34,29 @@
 
     <!-- Main Content -->
 
-    <main>
-        <div class="container-fluid" id="signup">
-            <div class="row">
-                <div class="col-12">
+    <main id="flex-container">
+        <section id="signup">
+            <h2>Your journey awaits</h2>
+            <form action="#" method="POST" id="signup-form">
 
+                <label for="first_name">First Name</label>
+                <input type="text" name="First Name" id="first_name" class="text-input" required>
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text" name="Last Name" id="last_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="Email Address" id="email_address" class="text-input" required>
+                <br>
+                <div class="radio-buttons" id="destination-choice">
+                    Japan<input type="radio" name="destination-choice" value="japan">
+                    Indonesia<input type="radio" name="destination-choice" value="indonesia">
+                    Thailand<input type="radio" name="destination-choice" value="thailand">
                 </div>
-                <div class="col-12">
-                    <h2 class="signup-heading">Your journey awaits</h2>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </section>
 
-                    <div class="signup-form">
-                        <form id="signup-form" method="POST" action="#" class="text-center">
-                            <div class="mb-3">
-                                <label for="first_name">First Name</label>
-                                <input type="text" id="first_name" name="first_name" class="text-input" required>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="last_name">Last Name</label>
-                                <input type="text" id="last_name" name="last_name" class="text-input" required>
-                            </div>
-
-                            <div class="mb-3">
-                                <label for="email_address">Email Address</label>
-                                <input type="email" id="email_address" name="email_address" class="text-input" required>
-                            </div>
-                        </form>
-                    </div>
-
-
-                    <div class="row">
-
-                        <div class="col-sm-12 col-md-4">
-                            <input type="radio" name="destination-choice" id="japan" value="japan" required checked>
-                            <label for="japan">Japan</label>
-                        </div>
-
-                        <div class="col-sm-12 col-md-4">
-                            <input type="radio" name="destination-choice" id="indonesia" value="indonesia" required>
-                            <label for="indonesia">Indonesia</label>
-                        </div>
-
-                        <div class="col-sm-12 col-md-4">
-                            <input type="radio" name="destination-choice" id="thailand" value="Thailand" required>
-                            <label for="thailand">Thailand</label>
-                        </div>
-
-                    </div>
-                    <div class="radio-buttons">
-
-
-                        <div>
-                            <input type="checkbox" id="subscribe" name="subscribe">
-                            <label class="checkbox" for="subscribe">Sign me up to receive deals and offers
-                                available.</label>
-                        </div>
-
-                        <button class="submit-button" type="submit">Submit</button>
-
-                        </form>
-                    </div>
-                </div>
     </main>
 
     <!-- End of Main Content -->
