@@ -242,6 +242,15 @@ body {
     flex-grow: 1;
 }
 
+.opaque-overlay_enquiry {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(10, 16, 13, 0.5);
+}
+
 .signup-heading {
     text-align: center;
     text-transform: uppercase;

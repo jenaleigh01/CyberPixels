@@ -35,25 +35,27 @@
 
     <main id="flex-container">
         <section id="signup">
-            <h2>Your journey awaits</h2>
-            <form action="#" method="POST" id="signup-form">
+            <div class="opaque-overlay">
+                <h2>Your journey awaits</h2>
+                <form action="#" method="POST" id="signup-form">
 
-                <label for="first_name">First Name</label>
-                <input type="text" name="First Name" id="first_name" class="text-input" required>
-                <br>
-                <label for="last_name">Last Name</label>
-                <input type="text" name="Last Name" id="last_name" class="text-input" required>
-                <br>
-                <label for="email_address">Email Address</label>
-                <input type="email" name="Email Address" id="email_address" class="text-input" required>
-                <br>
-                <div class="radio-buttons" id="destination-choice">
-                    Japan<input type="radio" name="destination-choice" value="japan">
-                    Indonesia<input type="radio" name="destination-choice" value="indonesia">
-                    Thailand<input type="radio" name="destination-choice" value="thailand">
-                </div>
-                <button type="submit" class="submit-button">Submit</button>
-            </form>
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="First Name" id="first_name" class="text-input" required>
+                    <br>
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="Last Name" id="last_name" class="text-input" required>
+                    <br>
+                    <label for="email_address">Email Address</label>
+                    <input type="email" name="Email Address" id="email_address" class="text-input" required>
+                    <br>
+                    <div class="radio-buttons" id="destination-choice">
+                        Japan<input type="radio" name="destination-choice" value="japan">
+                        Indonesia<input type="radio" name="destination-choice" value="indonesia">
+                        Thailand<input type="radio" name="destination-choice" value="thailand">
+                    </div>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
         </section>
 
     </main>
