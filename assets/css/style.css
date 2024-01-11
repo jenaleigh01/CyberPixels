@@ -123,8 +123,7 @@ body {
     margin-bottom: 2rem;
 }
 
-*--------------------------------------------------------------------------------Destinations page */
-
+/*--------------------------------------------------------------------------------Destinations page */ 
 
 .img-fluid {
     position: relative;
@@ -169,6 +168,42 @@ body {
     margin-right: 100px;
 }
 
+/*--------------------------------------------------------------------------------Enquiry form*/
+#signup {
+    height: 100vh;
+    width: 100%;
+    background: url("../images/signup-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.signup-heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 70px;
+
+}
+
+#signup-form {
+    margin-top: 70px;
+}
+
+.radio-buttons {
+    color: #ffe6e8;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.checkbox {
+    color: #ffe6e8;
+    font-family: "Roboto", sans-serif;
+}
+
 /*--------------------------------------------------------------------------------Footer*/
 
 footer {
@@ -205,7 +240,7 @@ footer {
 
 .social-links li a i:hover {
     background: #7d8491;
-    color: #ffe6e8;
+    color: #d6ffb7;
 }
 
 #footer-details {
@@ -238,9 +273,10 @@ footer {
 
 @media screen and (max-width: 1000px) {
 
-    position: relative;
+    .img-fluid {  position: relative;
     text-align: center;
     min-width: 100%;
+    }
 
 }
 
@@ -257,42 +293,17 @@ footer {
 
     .slide-container {
         position: relative;
+
     }
 
-    .overlay {
-        position: absolute;
-        bottom: 100%;
-        left: 0;
-        right: 0;
-        background-color: rgba(10, 16, 13, 0.5);
+
+    }
+
+    .image {
+        display: block;
         border-radius: 25px;
-        overflow: hidden;
+        height: auto;
         width: 100%;
-        height: 0;
-        transition: .5s ease;
-    }
-
-    .slide-container:hover .overlay {
-        bottom: 0;
-        height: 100%;
-    }
-
-    .overlay-text {
-        white-space: nowrap;
-        color: #ffe6e8;
-        font-family: "Italiana", sans-serif;
-        font-size: 3rem;
-        position: absolute;
-        overflow: hidden;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-    }
-
-    .overlay-text a {
-        text-decoration: none;
-        color: #ffe6e8;
     }
 
     .img-fluid {
@@ -300,4 +311,48 @@ footer {
         text-align: center;
         min-width: 100%;
     }
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    /* Align to the top of the slide-container */
+    left: 0;
+    /* Align to the left of the slide-container */
+    right: 0;
+    /* Align to the right of the slide-container */
+    bottom: 0;
+    background-color: rgba(10, 16, 13, 0.5);
+    border-radius: 25px;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+
+.slide-container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
+
+.overlay-text {
+    white-space: nowrap;
+    color: #ffe6e8;
+    font-family: "Italiana", sans-serif;
+    font-size: 3rem;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.overlay-text a {
+    text-decoration: none;
+    color: #ffe6e8;
+}
+
+
 }
