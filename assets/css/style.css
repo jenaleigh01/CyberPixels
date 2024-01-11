@@ -159,6 +159,16 @@ body {
     margin-left: 100px;
 }
 
+.small-destination-img-md {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 140px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
 /*--------------------------------------------------------------------------------Footer*/
 
 footer {
@@ -226,6 +236,13 @@ footer {
     }
 }
 
+@media screen and (max-width: 1000px) {
+
+    position: relative;
+    text-align: center;
+    min-width: 100%;
+
+}
 
 /*--------------------------------------------------------------------------------media query for laptop & pc*/
 
@@ -243,11 +260,12 @@ footer {
 
     }
 
-    .image {
-        display: block;
-        border-radius: 25px;
-        height: auto;
+    .img-fluid {
+        position: relative;
+        text-align: center;
+        min-width: 100%;
     }
+}
 
     .overlay {
         position: absolute;
