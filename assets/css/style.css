@@ -257,15 +257,7 @@ footer {
 
     .slide-container {
         position: relative;
-
     }
-
-    .img-fluid {
-        position: relative;
-        text-align: center;
-        min-width: 100%;
-    }
-}
 
     .overlay {
         position: absolute;
