@@ -107,19 +107,16 @@ body {
 
 .container-wrapper--rose {
     background-color: #ffe6e8;
-    ;
 }
 
 .showcase-container {
     text-align: center;
-
 }
 
 /*--------------------------------------------------------------------------------showcase overlay*/
 
 .slide-container {
     position: relative;
-
 }
 
 .image {
@@ -270,7 +267,6 @@ body {
     justify-content: space-between;
     color: #ffe6e8;
     font-family: "Roboto", sans-serif;
-    font-weight: bold;
 }
 
 #signup>h2 {
@@ -287,7 +283,7 @@ body {
     color: #ffe6e8;
     vertical-align: center;
     font-family: "Roboto", sans-serif;
-    font-weight: bold;
+    margin-top:1rem;
 }
 
 .submit-button {
@@ -305,6 +301,11 @@ body {
     background-color: #7D8491;
     color: #D6FFB7;
 }
+
+.text-input:hover {
+    border-color: #0A100D;
+}
+
 
 /*--------------------------------------------------------------------------------Footer*/
 
@@ -384,14 +385,9 @@ footer {
         max-width: 400px;
     }
 
-    .text-input:hover {
-        border-color: #0A100D;
-    }
-
     .submit-button:hover {
         background-color: #D6FFB7;
         color: #0A100D;
-
     }
 
 }
