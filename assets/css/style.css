@@ -238,18 +238,13 @@ body {
     background: url("../images/signup-image.jpg") no-repeat center center fixed;
     background-size: cover;
     position: relative;
-    position: 75%;
+    display: flex;
     flex-grow: 1;
+    align-items: center;
+    justify-content: center;
 }
 
-.opaque-overlay_enquiry {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(10, 16, 13, 0.5);
-}
+
 
 .signup-heading {
     text-align: center;
@@ -299,13 +294,15 @@ body {
 
 .submit-button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 25px;
     font-size: 100%;
     padding: 15px 32px;
-    color: #0A100D;
-    background-color: #7d8491;
+    color:#FFE6E8;
+    background-color:#710627;
     align-items: center;
+    border: none;
 }
+
 
 .submit-button:hover {
     background-color: #7D8491;
@@ -401,15 +398,16 @@ footer {
         text-align: center;
     }
 
-
-}
-
-
-/*@media screen and (max-width: 1000px) {
-
-    .img-fluid {  position: relative;
-    text-align: center;
-    min-width: 100%;
+    .text-input:hover {
+        border-color: #0A100D;
     }
+
+
+    .submit-button:hover {
+        background-color: #D6FFB7;
+        color: #0A100D;
+        
+    }
+
 
 }
