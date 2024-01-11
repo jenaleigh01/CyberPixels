@@ -377,7 +377,7 @@ footer {
         min-width: 100%;
     }
 
-    
+/*--------------------------------------------------------------------------------media query for signup form on desktop and larger devices */
 
     #signup-form {
         max-width: 400px; }
