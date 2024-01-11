@@ -355,11 +355,22 @@ footer {
 
     }
 
+
     #signup-form {
         max-width: 400px;
         position: absolute;
         left: 37%;
         top: 150px;
+=======
+
+    
+
+    .image {
+        display: block;
+        border-radius: 25px;
+        height: auto;
+        width: 100%;
+
     }
 
     #signup > h2 {
