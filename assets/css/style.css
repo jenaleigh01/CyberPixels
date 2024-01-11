@@ -267,7 +267,6 @@ body {
     justify-content: space-between;
     color: #ffe6e8;
     font-family: "Roboto", sans-serif;
-    font-weight: bold;
 }
 
 #signup>h2 {
@@ -284,7 +283,7 @@ body {
     color: #ffe6e8;
     vertical-align: center;
     font-family: "Roboto", sans-serif;
-    font-weight: bold;
+    margin-top:1rem;
 }
 
 .submit-button {
@@ -389,5 +388,6 @@ footer {
     .submit-button:hover {
         background-color: #D6FFB7;
         color: #0A100D;
+    }
 
 }
