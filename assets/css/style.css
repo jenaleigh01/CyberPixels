@@ -11,6 +11,7 @@ body {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    background-color: #FFE6E8;
 }
 
 /*--------------------------------------------------------------------------------Navbar*/
@@ -124,6 +125,7 @@ body {
 
 *--------------------------------------------------------------------------------Destinations page */
 
+
 .img-fluid {
     position: relative;
     text-align: center;
@@ -144,9 +146,28 @@ body {
 }
 
 .destination-text {
-    padding: 10px 20px;
+    padding: 20px 40px;
+    display: inline-block;
 }
 
+.small-destination-img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 140px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.small-destination-img-md {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 140px;
+    height: 180px;
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 /*--------------------------------------------------------------------------------Footer*/
 
@@ -215,6 +236,13 @@ footer {
     }
 }
 
+@media screen and (max-width: 1000px) {
+
+    position: relative;
+    text-align: center;
+    min-width: 100%;
+
+}
 
 /*--------------------------------------------------------------------------------media query for laptop & pc*/
 
@@ -232,11 +260,12 @@ footer {
 
     }
 
-    .image {
-        display: block;
-        border-radius: 25px;
-        height: auto;
+    .img-fluid {
+        position: relative;
+        text-align: center;
+        min-width: 100%;
     }
+}
 
     .overlay {
         position: absolute;
