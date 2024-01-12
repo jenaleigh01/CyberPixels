@@ -9,9 +9,26 @@ This website is targetted at those who love to travel, as well as anyone who has
 
 ![Home Page](https://github.com/Libbu/CyberPixels/blob/main/media/homepagereadme.JPG)
 
-## Features 
+## UX
 
-### Existing Features
+Site presentation and navigation is minimalist and intuitive. Generally speaking users can find out more informaiton about destinations, submit an enquiry, follow social media, and sign up to a mailing list. 
+
+## User Stories
+
+- As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
+- As a **user** I would like **to see high quality pictures of destinations** so I can decide if I want to go there.
+- As a **site owner** I want **users to be able to enquire about the tour** so that I can **convert them to customers** 
+- As a **user who relies on a screen reader** I want **the images and icons on the website to have meaningful alt text** so that I can **use the site.** 
+- As a **user** I want to **see written information about different travel destinations** so that I can decide if I want to go there.
+- As a **site owner** I **want a meaningful homepage** so that **users know what is available on the site.**  
+- As a **user** I want **the option to sign up to a mailing list** so that I can **know about any deals and offers available**.
+- As a **site owner** I want **my webpage to look good on all devices** so that users can **access it in different ways.**
+- As a **user** I want  **to see social media links** so that I can **follow them on different platforms.**
+- As a **user** I want **to see reviews from people who have been on the tour** so that I can **decide if I would like to go.** 
+
+## Scope
+
+### Features
 
 - __Navigation Bar__
 
@@ -33,7 +50,6 @@ This website is targetted at those who love to travel, as well as anyone who has
   - This section invites the user to delve more deeply into our content with three impactful images featuring iconic destinations within the countries covered.
   - On desktop, hovering over the images in this section causes an interactive overlay with a link to appear, the link in the overlay directs to the relevant section of the destination page.
 
- 
 
 ![Showcase](https://github.com/Libbu/CyberPixels/blob/main/media/showcasesection.png)
 
@@ -63,8 +79,9 @@ This website is targetted at those who love to travel, as well as anyone who has
 
 ![Enquire](https://github.com/Libbu/CyberPixels/blob/main/media/enquire.png)
 
+### Structure 
 
-### Site Wireframes
+## Site Wireframes
 
 - __Home Page__
 
@@ -103,19 +120,38 @@ This website is targetted at those who love to travel, as well as anyone who has
 - An affiliate section for reputable accomodation or attraction providers we are either connected to or have good relationships with.
 - A "comming soon" section where we can highlight upcoming countires or regions of focus.
 
-## Design
+## Surface
+
+### Design
+
+#### Chosen Colours
 
 A Site palette has been chosen to reflect a colour scheme that was both complementary and congruent with the aesthetic of the countries listed.
 
 The Palette was created using https://coolers.co
 
-![palette] (https://github.com/Libbu/CyberPixels/blob/main/media/palatte.JPG)
+![palette](https://github.com/Libbu/CyberPixels/blob/main/media/palatte.JPG)
 
-Selected fonts are:
+#### Fonts
 
 Roboto for text.
 
 Italiana for headings.
+
+#### Media
+
+Images are used to enhance UX throughout the page
+
+Home Page - The hero image hints at the offerings at our destinations, while the showcase images provide more visual excitement.
+
+Destinations Page - Images are included next to relevant information about each destination.
+
+Enquiry Page - The background image has an overlay so as not to be distracting while still encouraging the user to engage their wanterlust.
+
+## Technologies Used
+
+HTML
+CSS£
 
 ## Testing
 
@@ -123,7 +159,7 @@ Faraway Finds has been tested on Safari, Opera, Chrome and Microsoft Edge.
 
 Faraway finds has been thoroughly tested throughout the development process for responsiveness across devices using developer tools in Google Chrome 
 
-### Validator Testing 
+### Validating
 
 - HTML
 
@@ -137,8 +173,59 @@ Faraway finds has been thoroughly tested throughout the development process for 
 
   [CSS](https://github.com/Libbu/CyberPixels/blob/main/media/cssvalidation.JPG)
 
-### Unfixed Bugs
 
+- Lighthouse tools were used to test the website
+
+Desktop:
+
+[desktop](https://github.com/Libbu/CyberPixels/blob/main/media/lighthouse-desktop.JPG)
+
+Mobile View
+
+[mobile](https://github.com/Libbu/CyberPixels/blob/main/media/lighthousehomepagemobile.JPG)
+
+## User Story Testing
+
+As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
+
+- Our website has all the information nicely organised in the correct areas with a clear navigation bar across the top of all pages in the website. The navigation bar has all the links correctly connected so that users can easily find the information they need. 
+
+As a **user** I would like **to see high quality pictures of destinations** so I can decide if I want to go there.
+
+- On our website there are multiple high quality images of the destinations that capture the beauty of each location. Unfortunately the image captions weren't implemented but they can be added in a later revision in the future. 
+
+As a **site owner** I want **users to be able to enquire about the tour** so that I can **convert them to customers**
+
+- Our website has an Enquiries page where users can sign up and enquire about the tour. The page includes a form that users can fill in to sign up and get the information they need to decide if they'll be going on the tour. Unfortunately we didn't have time to implement the submit button giving feedback of the information being sent, however that can be addressed in a later version in the future. 
+
+As a **user who relies on a screen reader** I want **the images and icons on the website to have meaningful alt text** so that I can **use the site.**
+
+- Users who rely on screen readers will easily be able to tell what is happening on the website as we've implemented meaningful alt text on all images, icons and form fields. 
+
+
+As a **user** I want to **see written information about different travel destinations** so that I can decide if I want to go there.
+
+- Our website is designed to make it easy for users to find the written information they'd like with a clear navigation bar at the top of the page and links to sections pertaining to the relevant destination on the homepage. The text is clear, can easily be read and gives relevant information about the destination such as why you should go there and what there is for you to do. 
+
+As a **site owner** I **want a meaningful homepage** so that **users know what is available on the site.** 
+
+- We have created a beautiful homepage that clearly lets the user know the purpose, it features high quality images of the destinations, has relevant information and is easily navigated. 
+
+As a **user** I want **the option to sign up to a mailing list** so that I can **know about any deals and offers available**
+
+- On the Enquiries page of the website right above the submit button there's an unchecked checkbox for users to opt into receiving promotions of the latest deals and offers that is optimised for the best user experience.
+
+As a **site owner** I want **my webpage to look good on all devices** so that users can **access it in different ways.**
+
+- Our website is accessable and responsive on different devices and browsers. It changes the layout for the best possible user experience no matter the device used. 
+
+As a **user** I want  **to see social media links** so that I can **follow them on different platforms.**
+
+- The website has a clear footer throughout, with all the links to social media in a clear format so that users are able to follow on whichever platform they choose. The links open up on a seperate tab so users can easily find their way back to where they were. 
+
+- As a **user** I want **to see reviews from people who have been on the tour** so that I can **decide if I would like to go.** 
+
+Unfortunately, due to decisions made during prioritisation we were unable to implement this feature. However, it can easily be implemented in future revisions due to our easy-to-edit code layout. 
 
 
 ## Deployment
@@ -150,7 +237,7 @@ This section should describe the process you went through to deploy the project 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+The live link can be found here -
 
 
 ## Credits 
