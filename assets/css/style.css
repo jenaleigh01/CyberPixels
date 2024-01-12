@@ -14,6 +14,9 @@ body {
     background-color: #FFE6E8;
 }
 
+.hidden-heading {
+    display: none;
+}
 /*--------------------------------------------------------------------------------Navbar*/
 
 .navalert-container {
