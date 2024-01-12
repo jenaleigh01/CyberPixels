@@ -156,11 +156,16 @@ The Palette was created using https://coolers.co
 
 The colours are:
 
-#0A100D - Night Black 
-#710627 - Claret Red 
+#0A100D - Night Black
+
+#710627 - Claret Red
+
 #D6FFB7 - Tea Green 
+
 #FFE6E8 - Misty Rose 
+
 #7D8491 - Slate Gray 
+
 
 #### Fonts
 
