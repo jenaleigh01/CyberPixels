@@ -108,7 +108,7 @@ A Site palette has been chosen to reflect a colour scheme that was both compleme
 
 The Palette was created using https://coolers.co
 
-![palette] https://github.com/Libbu/CyberPixels/blob/main/media/palette.png
+![palette] https://github.com/Libbu/CyberPixels/blob/main/media/palette.jpg
 
 Selected fonts are;
 
