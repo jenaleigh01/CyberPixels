@@ -147,13 +147,18 @@ Destinations Page - Images are included next to relevant information about each 
 
 Enquiry Page - The background image has an overlay so as not to be distracting while still encouraging the user to engage their wanterlust.
 
+## Technologies Used
+
+HTML
+CSS£
+
 ## Testing
 
 Faraway Finds has been tested on Safari, Opera, Chrome and Microsoft Edge.
 
 Faraway finds has been thoroughly tested throughout the development process for responsiveness across devices using developer tools in Google Chrome 
 
-### Validator Testing 
+### Validating
 
 - HTML
 
@@ -167,9 +172,16 @@ Faraway finds has been thoroughly tested throughout the development process for 
 
   [CSS](https://github.com/Libbu/CyberPixels/blob/main/media/cssvalidation.JPG)
 
-### Unfixed Bugs
 
+- Lighthouse tools were used to test the website
 
+Desktop:
+
+[desktop](https://github.com/Libbu/CyberPixels/blob/main/media/lighthouse-desktop.JPG)
+
+Mobile View
+
+[mobile](https://github.com/Libbu/CyberPixels/blob/main/media/lighthousehomepagemobile.JPG)
 
 ## Deployment
 
