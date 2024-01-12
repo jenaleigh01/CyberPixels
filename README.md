@@ -329,4 +329,4 @@ All images were taken from [Unsplash](https://unsplash.com/)
 ### Acknowledgements 
 
  
-Further assistance gratefully received from CI tutors Iris and Martin,and CI slack community.
+Further assistance gratefully received from CI tutors Iris and Martin, and CI slack community.
