@@ -19,14 +19,14 @@ This website is targetted at those who love to travel, as well as anyone who has
 
   - The navigatopn bar allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/Libbu/CyberPixels/blob/main/media/navbar.PNG)
+![Nav Bar](https://github.com/Libbu/CyberPixels/blob/main/media/navbar.png)
 
 - __The landing page image__
 
 - The landing page image is a high quality photograph depicting a scene for the destinations covered.
 - It introduces the brand name and aesthetic, as well as featuring a brief statement of purpose.
 
-![Landing Page](https://github.com/Libbu/CyberPixels/blob/main/media/landingimage.PNG)
+![Landing Page](https://github.com/Libbu/CyberPixels/blob/main/media/landingimage.png)
 
 - __Destination Showcase Section__
 
@@ -35,7 +35,7 @@ This website is targetted at those who love to travel, as well as anyone who has
 
  
 
-![Showcase](https://github.com/Libbu/CyberPixels/blob/main/media/showcasesection.PNG)
+![Showcase](https://github.com/Libbu/CyberPixels/blob/main/media/showcasesection.png)
 
 - __The Footer__ 
 
@@ -43,7 +43,7 @@ This website is targetted at those who love to travel, as well as anyone who has
   - The footer displays consistently across all pages and is responsive on mobile. 
 
 
-![Footer](https://github.com/Libbu/CyberPixels/blob/main/media/footer.PNG)
+![Footer](https://github.com/Libbu/CyberPixels/blob/main/media/footer.png)
 
 
 - __Destinations Page__
@@ -52,8 +52,8 @@ This website is targetted at those who love to travel, as well as anyone who has
   - This section is valuable as it contains the information users came to our page for. We hope they will chose to enquire about our packages at these destinations, join our mailing list, or that they learn something new.
 
 
-![Destinations](https://github.com/Libbu/CyberPixels/blob/main/media/destthai.PNG)
-![Destinations Information](https://github.com/Libbu/CyberPixels/blob/main/media/dest2.PNG)
+![Destinations](https://github.com/Libbu/CyberPixels/blob/main/media/destthai.png)
+![Destinations Information](https://github.com/Libbu/CyberPixels/blob/main/media/dest2.png)
 
 - __Enquire Page__
 
@@ -61,7 +61,7 @@ This website is targetted at those who love to travel, as well as anyone who has
 - They are asked to submit their first and last names, their email adddress, select which country they would like information on, and tick a box indicating whether they would like to join the mailing list.
 
 
-![Enquire](https://github.com/Libbu/CyberPixels/blob/main/media/enquire.PNG)
+![Enquire](https://github.com/Libbu/CyberPixels/blob/main/media/enquire.png)
 
 
 ### Site Wireframes
@@ -109,7 +109,7 @@ A Site palette has been chosen to reflect a colour scheme that was both compleme
 
 The Palette was created using https://coolers.co
 
-![palette] https://github.com/Libbu/CyberPixels/blob/main/media/palette.jpg
+![palette] (https://github.com/Libbu/CyberPixels/blob/main/media/palatte.JPG)
 
 Selected fonts are:
 
