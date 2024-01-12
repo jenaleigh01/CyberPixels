@@ -330,3 +330,11 @@ All images were taken from [Unsplash](https://unsplash.com/)
 
  
 Further assistance gratefully received from CI tutors Iris and Martin, and CI slack community.
+
+Unless otherwise noted all code and content is the work of Team Cyber Pixels as part of Hackathon 1 in Code Institute Bootcamp.
+
+### Team Cyber Pixels:
+
+Bethan McKenzie
+Elizabeth Spivey
+Jenna Leigh
