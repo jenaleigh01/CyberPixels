@@ -150,8 +150,9 @@ Enquiry Page - The background image has an overlay so as not to be distracting w
 
 ## Technologies Used
 
-HTML
-CSS£
+- HTML
+
+- CSS3 
 
 ## Testing
 
@@ -165,67 +166,94 @@ Faraway finds has been thoroughly tested throughout the development process for 
 
   - No errors were returned when passing through [HTML Validation](https://validator.w3.org/)
 
-  [HTML](https://github.com/Libbu/CyberPixels/blob/main/media/validhtml.JPG)
+  ![HTML](https://github.com/Libbu/CyberPixels/blob/main/media/validhtml.JPG)
 
 
 - CSS
   - No errors were found when passing through [CSS Validation](https://jigsaw.w3.org/css-validator/)
 
-  [CSS](https://github.com/Libbu/CyberPixels/blob/main/media/cssvalidation.JPG)
+  ![CSS](https://github.com/Libbu/CyberPixels/blob/main/media/cssvalidation.JPG)
 
 
 - Lighthouse tools were used to test the website
 
 Desktop:
 
-[desktop](https://github.com/Libbu/CyberPixels/blob/main/media/lighthouse-desktop.JPG)
+![desktop](https://github.com/Libbu/CyberPixels/blob/main/media/lighthouse-desktop.JPG)
 
 Mobile View
 
-[mobile](https://github.com/Libbu/CyberPixels/blob/main/media/lighthousehomepagemobile.JPG)
+![mobile](https://github.com/Libbu/CyberPixels/blob/main/media/lighthousehomepagemobile.JPG)
 
 ## User Story Testing
 
-As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
+### What can be included
+
+|**Homepage**   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+1. As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
 
 - Our website has all the information nicely organised in the correct areas with a clear navigation bar across the top of all pages in the website. The navigation bar has all the links correctly connected so that users can easily find the information they need. 
 
-As a **user** I would like **to see high quality pictures of destinations** so I can decide if I want to go there.
+![Nav Bar](https://github.com/Libbu/CyberPixels/blob/main/media/navbar.png)
+
+![nav bar mobile](https://github.com/Libbu/CyberPixels/blob/main/media/mobmenu.JPG)
+
+
+2. As a **user** I would like **to see high quality pictures of destinations** so I can decide if I want to go there.
 
 - On our website there are multiple high quality images of the destinations that capture the beauty of each location. Unfortunately the image captions weren't implemented but they can be added in a later revision in the future. 
 
-As a **site owner** I want **users to be able to enquire about the tour** so that I can **convert them to customers**
+![Showcase](https://github.com/Libbu/CyberPixels/blob/main/media/showcasesection.png)
 
-- Our website has an Enquiries page where users can sign up and enquire about the tour. The page includes a form that users can fill in to sign up and get the information they need to decide if they'll be going on the tour. Unfortunately we didn't have time to implement the submit button giving feedback of the information being sent, however that can be addressed in a later version in the future. 
+3. As a **site owner** I want **users to be able to enquire about the tour** so that I can **convert them to customers**
 
-As a **user who relies on a screen reader** I want **the images and icons on the website to have meaningful alt text** so that I can **use the site.**
+- Our website has an Enquiries page where users can sign up and enquire about the tour. The page includes a form that users can fill in to sign up and get the information they need to decide if they'll be going on the tour. Unfortunately we didn't implement the submit button giving feedback of the information being sent, however that can be addressed in a later version in the future. 
+
+![form](https://github.com/Libbu/CyberPixels/blob/main/media/formactual.JPG)
+
+4. As a **user who relies on a screen reader** I want **the images and icons on the website to have meaningful alt text** so that I can **use the site.**
 
 - Users who rely on screen readers will easily be able to tell what is happening on the website as we've implemented meaningful alt text on all images, icons and form fields. 
 
 
-As a **user** I want to **see written information about different travel destinations** so that I can decide if I want to go there.
+5. As a **user** I want to **see written information about different travel destinations** so that I can decide if I want to go there.
 
-- Our website is designed to make it easy for users to find the written information they'd like with a clear navigation bar at the top of the page and links to sections pertaining to the relevant destination on the homepage. The text is clear, can easily be read and gives relevant information about the destination such as why you should go there and what there is for you to do. 
+- Our website is designed to make it easy for users to find the written information they'd like with a clear navigation bar at the top of the page and links to sections pertaining to the relevant destination on the homepage. The text is clear, can easily be read and gives relevant information about the destination such as why you should go there and what there is for you to do.
 
-As a **site owner** I **want a meaningful homepage** so that **users know what is available on the site.** 
+![Destinations](https://github.com/Libbu/CyberPixels/blob/main/media/destthai.png)
+![Destinations Information](https://github.com/Libbu/CyberPixels/blob/main/media/dest2.png)
+
+
+6. As a **site owner** I **want a meaningful homepage** so that **users know what is available on the site.** 
 
 - We have created a beautiful homepage that clearly lets the user know the purpose, it features high quality images of the destinations, has relevant information and is easily navigated. 
 
-As a **user** I want **the option to sign up to a mailing list** so that I can **know about any deals and offers available**
+![Home Page](https://github.com/Libbu/CyberPixels/blob/main/media/homepagereadme.JPG)
+
+7. As a **user** I want **the option to sign up to a mailing list** so that I can **know about any deals and offers available**
 
 - On the Enquiries page of the website right above the submit button there's an unchecked checkbox for users to opt into receiving promotions of the latest deals and offers that is optimised for the best user experience.
 
-As a **site owner** I want **my webpage to look good on all devices** so that users can **access it in different ways.**
+![mailling list](https://github.com/Libbu/CyberPixels/blob/main/media/mail.JPG)
+
+8. As a **site owner** I want **my webpage to look good on all devices** so that users can **access it in different ways.**
 
 - Our website is accessable and responsive on different devices and browsers. It changes the layout for the best possible user experience no matter the device used. 
 
-As a **user** I want  **to see social media links** so that I can **follow them on different platforms.**
+9. As a **user** I want  **to see social media links** so that I can **follow them on different platforms.**
 
 - The website has a clear footer throughout, with all the links to social media in a clear format so that users are able to follow on whichever platform they choose. The links open up on a seperate tab so users can easily find their way back to where they were. 
 
-- As a **user** I want **to see reviews from people who have been on the tour** so that I can **decide if I would like to go.** 
+![Footer](https://github.com/Libbu/CyberPixels/blob/main/media/footer.png)
 
-Unfortunately, due to decisions made during prioritisation we were unable to implement this feature. However, it can easily be implemented in future revisions due to our easy-to-edit code layout. 
+10. As a **user** I want **to see reviews from people who have been on the tour** so that I can **decide if I would like to go.** 
+
+- Unfortunately, due to decisions made during prioritisation we were unable to implement this feature. However, it can easily be implemented in future revisions due to our easy-to-edit code layout. 
 
 
 ## Deployment
@@ -252,27 +280,7 @@ You can break the credits section up into Content and Media, depending on what y
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-### Media
-
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
-## Other General Project Advice
 
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
