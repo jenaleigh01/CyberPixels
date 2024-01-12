@@ -63,17 +63,62 @@ This website is targetted at those who love to travel, as well as anyone who has
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 
+### Site Wireframes
 
-### Features Left to Implement
+- __Home Page__
 
-- A section for reciews from people who have used our website to plan their journey in these areas.
+![Desktop home page](https://github.com/Libbu/CyberPixels/blob/main/media/PC%20Homepage.png)
+
+
+- __Destinations Page__
+
+![Destinations page](https://github.com/Libbu/CyberPixels/blob/main/media/PC%20Destinations.png)
+
+- __Enquiry Page__
+
+![Enquiry page](https://github.com/Libbu/CyberPixels/blob/main/media/PC%20Enquiries.png)
+
+
+- __Home Page Mobile View__
+
+![Home Page Mobile](https://github.com/Libbu/CyberPixels/blob/main/media/Homepage%201.png)
+
+![Home Page Mobile 2](https://github.com/Libbu/CyberPixels/blob/main/media/Homepage%202.png)
+
+- __Destinations Page Mobile View__
+
+![Destinations page Mobile View](https://github.com/Libbu/CyberPixels/blob/main/media/Destinations%201.png)
+
+![DEstinations Page Mobile View 2](https://github.com/Libbu/CyberPixels/blob/main/media/Destinations%202.png)
+
+- __Enquiry Page Mobile Veiw__
+
+![Enquiry Page](https://github.com/Libbu/CyberPixels/blob/main/media/Enquiries.png)
+
+
+### Features For Future Implementation
+
+- A section for reviews from people who have used our website to plan their journey in these areas.
 - An affiliate section for reputable accomodation or attraction providers we are either connected to or have good relationships with.
+- A "comming soon" section where we can highlight upcoming countires or regions of focus.
 
-## Testing 
+## Design
+
+A Site palette has been chosen to reflect a colour scheme that was both complementary and congruent with the aesthetic of the countries listed.
+
+The Palette was created using https://coolers.co
+
+![palette] https://github.com/Libbu/CyberPixels/blob/main/media/palette.png
+
+Selected fonts are;
+
+Roboto for text.
+
+Italiana for headings.
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+Faraway finds has been th
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
