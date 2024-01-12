@@ -19,14 +19,14 @@ This website is targetted at those who love to travel, as well as anyone who has
 
   - The navigatopn bar allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/Libbu/CyberPixels/blob/main/media/navbar.PNG)
+![Nav Bar](https://github.com/Libbu/CyberPixels/blob/main/media/navbar.png)
 
 - __The landing page image__
 
 - The landing page image is a high quality photograph depicting a scene for the destinations covered.
 - It introduces the brand name and aesthetic, as well as featuring a brief statement of purpose.
 
-![Landing Page](https://github.com/Libbu/CyberPixels/blob/main/media/landingimage.PNG)
+![Landing Page](https://github.com/Libbu/CyberPixels/blob/main/media/landingimage.png)
 
 - __Destination Showcase Section__
 
@@ -35,7 +35,7 @@ This website is targetted at those who love to travel, as well as anyone who has
 
  
 
-![Showcase](https://github.com/Libbu/CyberPixels/blob/main/media/showcasesection.PNG)
+![Showcase](https://github.com/Libbu/CyberPixels/blob/main/media/showcasesection.png)
 
 - __The Footer__ 
 
@@ -43,7 +43,7 @@ This website is targetted at those who love to travel, as well as anyone who has
   - The footer displays consistently across all pages and is responsive on mobile. 
 
 
-![Footer](https://github.com/Libbu/CyberPixels/blob/main/media/footer.PNG)
+![Footer](https://github.com/Libbu/CyberPixels/blob/main/media/footer.png)
 
 
 - __Destinations Page__
@@ -52,8 +52,8 @@ This website is targetted at those who love to travel, as well as anyone who has
   - This section is valuable as it contains the information users came to our page for. We hope they will chose to enquire about our packages at these destinations, join our mailing list, or that they learn something new.
 
 
-![Destinations](https://github.com/Libbu/CyberPixels/blob/main/media/destthai.PNG)
-![Destinations Information](https://github.com/Libbu/CyberPixels/blob/main/media/dest2.PNG)
+![Destinations](https://github.com/Libbu/CyberPixels/blob/main/media/destthai.png)
+![Destinations Information](https://github.com/Libbu/CyberPixels/blob/main/media/dest2.png)
 
 - __Enquire Page__
 
@@ -61,7 +61,7 @@ This website is targetted at those who love to travel, as well as anyone who has
 - They are asked to submit their first and last names, their email adddress, select which country they would like information on, and tick a box indicating whether they would like to join the mailing list.
 
 
-![Enquire](https://github.com/Libbu/CyberPixels/blob/main/media/enquire.PNG)
+![Enquire](https://github.com/Libbu/CyberPixels/blob/main/media/enquire.png)
 
 
 ### Site Wireframes
@@ -109,7 +109,7 @@ A Site palette has been chosen to reflect a colour scheme that was both compleme
 
 The Palette was created using https://coolers.co
 
-![palette] https://github.com/Libbu/CyberPixels/blob/main/media/palette.jpg
+![palette] (https://github.com/Libbu/CyberPixels/blob/main/media/palatte.JPG)
 
 Selected fonts are:
 
@@ -123,27 +123,23 @@ Faraway Finds has been tested on Safari, Opera, Chrome and Microsoft Edge.
 
 Faraway finds has been thoroughly tested throughout the development process for responsiveness across devices using developer tools in Google Chrome 
 
-### Validation
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Faraway finds has been th
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+
+  - No errors were returned when passing through [HTML Validation](https://validator.w3.org/)
+
+  [HTML](https://github.com/Libbu/CyberPixels/blob/main/media/validhtml.JPG)
+
+
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through [CSS Validation](https://jigsaw.w3.org/css-validator/)
+
+  [CSS](https://github.com/Libbu/CyberPixels/blob/main/media/cssvalidation.JPG)
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+
 
 ## Deployment
 
