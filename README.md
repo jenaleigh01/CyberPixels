@@ -9,9 +9,25 @@ This website is targetted at those who love to travel, as well as anyone who has
 
 ![Home Page](https://github.com/Libbu/CyberPixels/blob/main/media/homepagereadme.JPG)
 
-## Features 
+## UX
 
-### Existing Features
+Site presentation and navigation is minimalist and intuitive. Generally speaking users can find out more informaiton about destinations, submit an enquiry, follow social media, and sign up to a mailing list. 
+
+## User Stories
+
+- As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
+- As a **user** I would like **to see high quality pictures of destinations** so I can decide if I want to go there.
+- As a **site owner** I want **users to be able to enquire about the tour** so that I can **convert them to customers** 
+- As a **user who relies on a screen reader** I want **the images and icons on the website to have meaningful alt text** so that I can **use the site.** 
+- As a **user** I want to **see written information about different travel destinations** so that I can decide if I want to go there.
+- As a **site owner** I **want a meaningful homepage** so that **users know what is available on the site.**  
+- As a **user** I want **the option to sign up to a mailing list** so that I can **know about any deals and offers available**.
+- As a **user** I want  **to see social media links** so that I can **follow them on different platforms.**
+- As a **user** I want **to see reviews from people who have been on the tour** so that I can **decide if I would like to go.** 
+
+## Scope
+
+### Features
 
 - __Navigation Bar__
 
@@ -33,7 +49,6 @@ This website is targetted at those who love to travel, as well as anyone who has
   - This section invites the user to delve more deeply into our content with three impactful images featuring iconic destinations within the countries covered.
   - On desktop, hovering over the images in this section causes an interactive overlay with a link to appear, the link in the overlay directs to the relevant section of the destination page.
 
- 
 
 ![Showcase](https://github.com/Libbu/CyberPixels/blob/main/media/showcasesection.png)
 
@@ -63,8 +78,9 @@ This website is targetted at those who love to travel, as well as anyone who has
 
 ![Enquire](https://github.com/Libbu/CyberPixels/blob/main/media/enquire.png)
 
+### Structure 
 
-### Site Wireframes
+## Site Wireframes
 
 - __Home Page__
 
@@ -103,7 +119,11 @@ This website is targetted at those who love to travel, as well as anyone who has
 - An affiliate section for reputable accomodation or attraction providers we are either connected to or have good relationships with.
 - A "comming soon" section where we can highlight upcoming countires or regions of focus.
 
-## Design
+## Surface
+
+### Design
+
+#### Chosen Colours
 
 A Site palette has been chosen to reflect a colour scheme that was both complementary and congruent with the aesthetic of the countries listed.
 
@@ -111,25 +131,21 @@ The Palette was created using https://coolers.co
 
 ![palette](https://github.com/Libbu/CyberPixels/blob/main/media/palatte.JPG)
 
-Selected fonts are:
+#### Fonts
 
 Roboto for text.
 
 Italiana for headings.
 
-## User Stories
+#### Media
 
-- As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
-- As a **user** I would like **to see high quality pictures of destinations** so I can decide if I want to go there.
-- As a **site owner** I want **users to be able to enquire about the tour** so that I can **convert them to customers** 
-- As a **user who relies on a screen reader** I want **the images and icons on the website to have meaningful alt text** so that I can **use the site.** 
-- As a **user** I want to **see written information about different travel destinations** so that I can decide if I want to go there.
-- As a **site owner** I **want a meaningful homepage** so that **users know what is available on the site.**  
-- As a **user** I want **the option to sign up to a mailing list** so that I can **know about any deals and offers available**.
-- As a **user** I want  **to see social media links** so that I can **follow them on different platforms.**
-- As a **user** I want **to see reviews from people who have been on the tour** so that I can **decide if I would like to go.** 
+Images are used to enhance UX throughout the page
 
+Home Page - The hero image hints at the offerings at our destinations, while the showcase images provide more visual excitement.
 
+Destinations Page - Images are included next to relevant information about each destination.
+
+Enquiry Page - The background image has an overlay so as not to be distracting while still encouraging the user to engage their wanterlust.
 
 ## Testing
 
