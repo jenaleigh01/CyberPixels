@@ -30,6 +30,30 @@ Site presentation and navigation is minimalist and intuitive. Generally speaking
 
 ### Features
 
+| **Homepage**   | **Destinations**   | **Enquiries** | **Website as a whole**   |
+|---|---|---|---|
+| Small Gallery   | Attractions   |  Form  | Navbar   |
+| Links to more information| Information about the destinations |Mailing list checkbox    |Social Media links   |
+| Reviews   |  High quality pictures of the destinations  |   |Meaningful alt text |
+
+|  **Feature** | **Value**  |  **Effort** |
+|---|---|---|
+| Homepage   |  High |  Medium |
+| Destinations page   | High  |  Medium |
+| Enquiries page   | Medium  | Low  |
+|  Navbar  |  High | Low  |
+|Social media    | High  |Low   |
+|  Reviews  | Medium  |Medium |
+
+| Feature  |  Priority |
+|---|---|
+| Homepage  | 2  |
+| Destinations  |  4 |
+|  Enquiries | 5  |
+|  Navbar |  1 |
+| Social Links  |  3 |
+|  Reviews |  6 |
+
 - __Navigation Bar__
 
   - Featured on all three pages, the full responsive navigation bar includes links to Home, Destination and Enquiry pages. It is identical in each page to allow for easy navigation.
@@ -186,14 +210,6 @@ Mobile View
 ![mobile](https://github.com/Libbu/CyberPixels/blob/main/media/lighthousehomepagemobile.JPG)
 
 ## User Story Testing
-
-### What can be included
-
-|**Homepage**   |   |   |   |   |
-|---|---|---|---|---|
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
 
 1. As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
 
