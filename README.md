@@ -11,13 +11,13 @@ This website is targetted at those who love to travel, as well as anyone who has
 
 ## UX
 
-Site presentation and navigation is minimalist and intuitive. Generally speaking users can find out more informaiton about destinations, submit an enquiry, follow social media, and sign up to a mailing list. 
+Site presentation and navigation is minimalist and intuitive. Generally speaking users can find out more information about destinations, submit an enquiry, follow social media, and sign up to a mailing list. 
 
 ## User Stories
 
-- As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
+- As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**.
 - As a **user** I would like **to see high quality pictures of destinations** so I can decide if I want to go there.
-- As a **site owner** I want **users to be able to enquire about the tour** so that I can **convert them to customers** 
+- As a **site owner** I want **users to be able to enquire about the tour** so that I can **convert them to customers**.
 - As a **user who relies on a screen reader** I want **the images and icons on the website to have meaningful alt text** so that I can **use the site.** 
 - As a **user** I want to **see written information about different travel destinations** so that I can decide if I want to go there.
 - As a **site owner** I **want a meaningful homepage** so that **users know what is available on the site.**  
@@ -64,22 +64,24 @@ Site presentation and navigation is minimalist and intuitive. Generally speaking
 
 - __The landing page image__
 
-- The landing page image is a high quality photograph depicting a scene for the destinations covered.
-- It introduces the brand name and aesthetic, as well as featuring a brief statement of purpose.
+  - The landing page image is a high quality photograph depicting a scene for the destinations covered.
+  - It introduces the brand name and aesthetic, as well as featuring a brief statement of purpose.
 
 ![Landing Page](https://github.com/Libbu/CyberPixels/blob/main/media/landingimage.png)
 
 - __Destination Showcase Section__
 
   - This section invites the user to delve more deeply into our content with three impactful images featuring iconic destinations within the countries covered.
-  - On desktop, hovering over the images in this section causes an interactive overlay with a link to appear, the link in the overlay directs to the relevant section of the destination page.
+
+  - On desktop, hovering over the images in this section causes an interactive overlay with a link to appear, the link in the overlay directs to the relevant section of the destination page. This overlay and the link appear on the images for mobile user when they tap the images on the screen.
 
 
 ![Showcase](https://github.com/Libbu/CyberPixels/blob/main/media/showcasesection.png)
 
 - __The Footer__ 
 
-  - The footer includes links the user can follow to access our social media content on different platforms, encouraging them to stay connecterd with our brand.
+  - The footer includes links the user can follow to access our social media content on different platforms, encouraging them to stay connected with our brand.
+
   - The footer displays consistently across all pages and is responsive on mobile. 
 
 
@@ -89,6 +91,7 @@ Site presentation and navigation is minimalist and intuitive. Generally speaking
 - __Destinations Page__
 
   - The destinations page will provide the user with comprehensive information about attractions in each destination, and ccompanying high quality images. 
+
   - This section is valuable as it contains the information users came to our page for. We hope they will chose to enquire about our packages at these destinations, join our mailing list, or that they learn something new.
 
 
@@ -97,15 +100,16 @@ Site presentation and navigation is minimalist and intuitive. Generally speaking
 
 - __Enquire Page__
 
- - This page will allow users to send an equiry for more information about what is on offer in a specific country, and join our mailng list.
-- They are asked to submit their first and last names, their email adddress, select which country they would like information on, and tick a box indicating whether they would like to join the mailing list.
+  - This page will allow users to send an equiry for more information about what is on offer in a specific country, and join our mailng list.
+
+  - They are asked to submit their first and last names, their email adddress, select which country they would like information on, and tick a box indicating whether they would like to join the mailing list.
 
 
 ![Enquire](https://github.com/Libbu/CyberPixels/blob/main/media/enquire.png)
 
-### Structure 
+## Structure 
 
-## Site Wireframes
+### Site Wireframes
 
 - __Home Page__
 
@@ -138,27 +142,29 @@ Site presentation and navigation is minimalist and intuitive. Generally speaking
 ![Enquiry Page](https://github.com/Libbu/CyberPixels/blob/main/media/Enquiries.png)
 
 
-### Features For Future Implementation
-
-- A section for reviews from people who have used our website to plan their journey in these areas.
-- An affiliate section for reputable accomodation or attraction providers we are either connected to or have good relationships with.
-- A "comming soon" section where we can highlight upcoming countires or regions of focus.
-
 ## Surface
 
 ### Design
 
 #### Chosen Colours
 
-A Site palette has been chosen to reflect a colour scheme that was both complementary and congruent with the aesthetic of the countries listed.
+A Site palette has been chosen to reflect a colour scheme that is both complementary and congruent with the aesthetic of the countries listed.
 
 The Palette was created using https://coolers.co
 
 ![palette](https://github.com/Libbu/CyberPixels/blob/main/media/palatte.JPG)
 
+The colours are:
+
+#0A100D - Night Black 
+#710627 - Claret Red 
+#D6FFB7 - Tea Green 
+#FFE6E8 - Misty Rose 
+#7D8491 - Slate Gray 
+
 #### Fonts
 
-Roboto for text.
+Roboto for paragraph text.
 
 Italiana for headings.
 
@@ -182,7 +188,7 @@ Enquiry Page - The background image has an overlay so as not to be distracting w
 
 Faraway Finds has been tested on Safari, Opera, Chrome and Microsoft Edge.
 
-Faraway finds has been thoroughly tested throughout the development process for responsiveness across devices using developer tools in Google Chrome 
+Faraway finds has been thoroughly tested throughout the development process for responsiveness across devices using developer tools in Google Chrome.
 
 ### Validating
 
@@ -222,13 +228,13 @@ Mobile View
 
 2. As a **user** I would like **to see high quality pictures of destinations** so I can decide if I want to go there.
 
-- On our website there are multiple high quality images of the destinations that capture the beauty of each location. Unfortunately the image captions weren't implemented but they can be added in a later revision in the future. 
+- On our website there are multiple high quality images of the destinations that capture the beauty of each location. Image captions describing the locations pictured have not been added but can be later.
 
 ![Showcase](https://github.com/Libbu/CyberPixels/blob/main/media/showcasesection.png)
 
 3. As a **site owner** I want **users to be able to enquire about the tour** so that I can **convert them to customers**
 
-- Our website has an Enquiries page where users can sign up and enquire about the tour. The page includes a form that users can fill in to sign up and get the information they need to decide if they'll be going on the tour. Unfortunately we didn't implement the submit button giving feedback of the information being sent, however that can be addressed in a later version in the future. 
+- Our website has an Enquiries page where users can sign up and enquire about the tour. The page includes a form that users can fill in to sign up and get the information they need to decide if they'll be going on the tour.
 
 ![form](https://github.com/Libbu/CyberPixels/blob/main/media/formactual.JPG)
 
@@ -241,9 +247,7 @@ Mobile View
 
 - Our website is designed to make it easy for users to find the written information they'd like with a clear navigation bar at the top of the page and links to sections pertaining to the relevant destination on the homepage. The text is clear, can easily be read and gives relevant information about the destination such as why you should go there and what there is for you to do.
 
-![Destinations](https://github.com/Libbu/CyberPixels/blob/main/media/destthai.png)
 ![Destinations Information](https://github.com/Libbu/CyberPixels/blob/main/media/dest2.png)
-
 
 6. As a **site owner** I **want a meaningful homepage** so that **users know what is available on the site.** 
 
@@ -270,6 +274,14 @@ Mobile View
 10. As a **user** I want **to see reviews from people who have been on the tour** so that I can **decide if I would like to go.** 
 
 - Unfortunately, due to where it fell in prioritisation we were unable to implement this feature. However, it can easily be implemented in future revisions due to our easy-to-edit code layout. 
+
+### Features For Future Implementation
+
+- A section for reviews from people who have used our website to plan their journey in these areas.
+- Captions on all images so that users know where they were taken.
+- Users receiving feedback when the enquiries form is submitted.
+- An affiliate section for reputable accomodation or attraction providers we are either connected to or have good relationships with.
+- A "comming soon" section where we can highlight upcoming countires or regions of focus.
 
 ## Known Issues and Bugs
 
