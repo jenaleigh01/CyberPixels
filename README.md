@@ -109,13 +109,27 @@ A Site palette has been chosen to reflect a colour scheme that was both compleme
 
 The Palette was created using https://coolers.co
 
-![palette] (https://github.com/Libbu/CyberPixels/blob/main/media/palatte.JPG)
+![palette](https://github.com/Libbu/CyberPixels/blob/main/media/palatte.JPG)
 
 Selected fonts are:
 
 Roboto for text.
 
 Italiana for headings.
+
+## User Stories
+
+- As a **site-owner** I want **users to be able to navigate my site** so that **they can find information**
+- As a **user** I would like **to see high quality pictures of destinations** so I can decide if I want to go there.
+- As a **site owner** I want **users to be able to enquire about the tour** so that I can **convert them to customers** 
+- As a **user who relies on a screen reader** I want **the images and icons on the website to have meaningful alt text** so that I can **use the site.** 
+- As a **user** I want to **see written information about different travel destinations** so that I can decide if I want to go there.
+- As a **site owner** I **want a meaningful homepage** so that **users know what is available on the site.**  
+- As a **user** I want **the option to sign up to a mailing list** so that I can **know about any deals and offers available**.
+- As a **user** I want  **to see social media links** so that I can **follow them on different platforms.**
+- As a **user** I want **to see reviews from people who have been on the tour** so that I can **decide if I would like to go.** 
+
+
 
 ## Testing
 
