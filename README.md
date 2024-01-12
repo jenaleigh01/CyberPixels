@@ -1,6 +1,6 @@
 # Faraway Finds
 
-Faraway Finds is a travel destination website created to showcase the stunning offerings of selected countries in Eest-Southeast Asia; specifcially Thailand, Japan and Indonesia.
+Faraway Finds is a travel destination website created to showcase the stunning offerings of selected countries in East-Southeast Asia; specifcially Thailand, Japan and Indonesia.
 
 The objective of the website is to stimulate interest in travel to these countries through the use of high-quality images, intuitive layout and informative text.
 
@@ -19,14 +19,14 @@ This website is targetted at those who love to travel, as well as anyone who has
 
   - The navigatopn bar allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/Libbu/CyberPixels/blob/main/media/navbar.PNG)
 
 - __The landing page image__
 
 - The landing page image is a high quality photograph depicting a scene for the destinations covered.
 - It introduces the brand name and aesthetic, as well as featuring a brief statement of purpose.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page](https://github.com/Libbu/CyberPixels/blob/main/media/landingimage.PNG)
 
 - __Destination Showcase Section__
 
@@ -35,7 +35,7 @@ This website is targetted at those who love to travel, as well as anyone who has
 
  
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Showcase](https://github.com/Libbu/CyberPixels/blob/main/media/showcasesection.PNG)
 
 - __The Footer__ 
 
@@ -43,7 +43,7 @@ This website is targetted at those who love to travel, as well as anyone who has
   - The footer displays consistently across all pages and is responsive on mobile. 
 
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](https://github.com/Libbu/CyberPixels/blob/main/media/footer.PNG)
 
 
 - __Destinations Page__
@@ -52,7 +52,8 @@ This website is targetted at those who love to travel, as well as anyone who has
   - This section is valuable as it contains the information users came to our page for. We hope they will chose to enquire about our packages at these destinations, join our mailing list, or that they learn something new.
 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Destinations](https://github.com/Libbu/CyberPixels/blob/main/media/destthai.PNG)
+![Destinations Information](https://github.com/Libbu/CyberPixels/blob/main/media/dest2.PNG)
 
 - __Enquire Page__
 
@@ -60,7 +61,7 @@ This website is targetted at those who love to travel, as well as anyone who has
 - They are asked to submit their first and last names, their email adddress, select which country they would like information on, and tick a box indicating whether they would like to join the mailing list.
 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Enquire](https://github.com/Libbu/CyberPixels/blob/main/media/enquire.PNG)
 
 
 ### Site Wireframes
@@ -108,13 +109,21 @@ A Site palette has been chosen to reflect a colour scheme that was both compleme
 
 The Palette was created using https://coolers.co
 
-![palette] https://github.com/Libbu/CyberPixels/blob/main/media/palette.png
+![palette] https://github.com/Libbu/CyberPixels/blob/main/media/palette.jpg
 
-Selected fonts are;
+Selected fonts are:
 
 Roboto for text.
 
 Italiana for headings.
+
+## Testing
+
+Faraway Finds has been tested on Safari, Opera, Chrome and Microsoft Edge.
+
+Faraway finds has been thoroughly tested throughout the development process for responsiveness across devices using developer tools in Google Chrome 
+
+### Validation
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
