@@ -7,7 +7,7 @@ The objective of the website is to stimulate interest in travel to these countri
 This website is targetted at those who love to travel, as well as anyone who has a general interest in these areas and is looking for more details about them. It will enable users to join a mailing list in order to recieve updates about destination information, and to follow the brand on social media platforms.
 
 
-![Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Home Page](https://github.com/Libbu/CyberPixels/blob/main/media/homepagereadme.JPG)
 
 ## Features 
 
