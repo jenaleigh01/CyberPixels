@@ -309,7 +309,9 @@ Bootstrap 4 was used to assist in the structure and layout of the destinations p
 
 Content from Code Institute's LMS modules were used for standard code across all pages of the website. 
 
-Font Awesome was used across all pages for social media link icons.
+[Font Awesome](https://fontawesome.com/) was used across all pages for social media link icons.
+
+Fonts are from [Google Fonts](https://fonts.google.com/)
 
 
 ### Media
@@ -322,10 +324,4 @@ All images were taken from [Unsplash](https://unsplash.com/)
 ### Acknowledgements 
 
  
-Further assistance was thankfully was received from CI tutors Iris and Martin, and CI slack community when needed. 
-
-
-
-
-
-
+Further assistance gratefully received from CI tutors Iris and Martin,and CI slack community.
