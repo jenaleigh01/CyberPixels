@@ -28,7 +28,7 @@ Site presentation and navigation is minimalist and intuitive. Generally speaking
 
 ## Scope
 
-### Features
+### High-Level Features
 
 | **Homepage**   | **Destinations**   | **Enquiries** | **Website as a whole**   |
 |---|---|---|---|
@@ -269,32 +269,49 @@ Mobile View
 
 10. As a **user** I want **to see reviews from people who have been on the tour** so that I can **decide if I would like to go.** 
 
-- Unfortunately, due to decisions made during prioritisation we were unable to implement this feature. However, it can easily be implemented in future revisions due to our easy-to-edit code layout. 
+- Unfortunately, due to where it fell in prioritisation we were unable to implement this feature. However, it can easily be implemented in future revisions due to our easy-to-edit code layout. 
 
+## Known Issues and Bugs
+
+Following development, testing, and deployment no issues or bugs have been encountered
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The site was deployed to GitHub pages. 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+The live link can be found here:
 
-The live link can be found here -
-
+[Faraway Finds](https://libbu.github.io/CyberPixels/)
 
 ## Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+### Content
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+The structure of the homepage is similar to Code Institute's [Love Whiskey](https://github.com/Code-Institute-Solutions/BootstrappingYourNextBigIdea-BS4)  homepage. We have then made changes in order for it to fit in with the website.
 
-### Content 
+Implementation instructions for showcase section overlays were taken from [W3Schools](https://www.w3schools.com/css/css3_images.asp)
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-v3) sign up page was used to help with design of the website's sign up page. 
+
+Bootstrap 4 was used to assist in the structure and layout of the destinations page and the home page. 
+
+Content from Code Institute's LMS modules were used for standard code across all pages of the website. 
+
+Font Awesome was used across all pages for social media link icons.
+
+
+### Media
+
+All images were taken from [Unsplash](https://unsplash.com/)
+
+[Photopea](https://www.photopea.com/) was used to optimize the hero image on the homepage. 
+
+
+### Acknowledgements 
+
+ 
+Further assistance was thankfully was received from CI tutors Iris and Martin, and CI slack community when needed. 
+
 
 
 
